@@ -19,4 +19,5 @@ $asunto = 'Asunto de mi sitio web';
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
 header("Location:index.html");
+//No funciona
 ?>
