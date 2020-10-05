@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans+JP:wght@500&family=Open+Sans&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+/* todo */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("/img/fondo1.jpg") ;
+}
+
+/* slider -home */
+.carrousel-item{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Open Sans', sans-serif;
+  color:#03071E;
+  
+}
+
+.carrousel-item p{
+  flex: 1.75;
+  padding:10px;
+  font-size: 24px;
+  text-align:justify ;
+}
+
+.Introduccion{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#03071E;
+  padding: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+.img-fluid{
+  flex: 1.25;
+  max-width: 600px;
+  padding-top: 10px;
+  
+}
+
+.img-fluid img{
+  flex: 1;
+  max-width: 600px;
+  padding: 35px;
+}
+
+
+.img-fluid2 img{
+  flex: 1;
+  max-width: 600px;
+  padding: 35px;
+}
+
+/* Servicios - home */
+
+.container-servicios .row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align:justify ;
+
+}
+
+.container-servicios .row .col-lg-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 1100px;
+}
+
+ .container-servicios .row .col-lg-4 h2 {
+      text-align: justify;
+      font-family: 'Open Sans', sans-serif; 
+      padding: 30px;
+}
+
+.container-servicios .row .col-lg-4 .parrafos{
+    text-align: justify;
+    padding: 20px;
+    font-size: 21px ;
+    font-family: 'Open Sans', sans-serif; 
+} 
+
+.container-servicios .row .col-lg-4 .parrafos p a{
+  align-items: center;
+} 
+
+
+
+
+/* Jumbotron - trabajo */
+
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/img/consejoAsesorYmca2.jpg");
+  height: 500px;
+
+}
+
+.jumbotron-heading{
+  padding: 20px;
+}
+
+.jumbotron .container{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: flex-start;
+  text-align:justify;
+  font-size: 27px;
+  color: #ffff ;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Detalles -trabajo */
+.container-det .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.col-md-4{
+  border-left: 6px solid #4C5357 ;
+  height: 500px;
+
+}
+
+.col-md-4 h2{
+    font-size: 29px ;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.col-md-4 p{
+  font-size: 18px ;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+}
+
+/* Contacto - contacto */
+
+  .mb-5{
+    padding: 20px;
+  }
+
+
+/* Footer - footer */
+.container-footer{
+  background-color: #343a40;
+  color: #ffff;
+  text-align: center;
+}
+
+hr{
+  border: 2px solid;
+  width: 800px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@media screen and (max-width: 450px) {
+  .jumbotron{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/img/consejoAsesorYmca2.jpg");
+    width: 400px;
+  }
+  
+  .jumbotron-heading{
+    padding: 20px;
+  }
+  
+  .jumbotron .container{
+    text-align:justify;
+    font-size: 27px;
+    color: #ffff ;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+
+
+  .container-det .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.col-md-4{
+  border-left: 6px solid #4C5357 ;
+  height: 500px;
+
+}
+
+.col-md-4 h2{
+    font-size: 24px ;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.col-md-4 p{
+  font-size: 15px ;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+}
+
+}
+
+
+
